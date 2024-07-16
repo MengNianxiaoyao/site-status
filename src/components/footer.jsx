@@ -9,6 +9,8 @@ const Footer = () => {
   const homeUrl = import.meta.env.VITE_HOME_URL;
   const emailUrl = import.meta.env.VITE_EMAIL_URL;
   const siteIcp = import.meta.env.VITE_SITE_ICP;
+  const startTime = import.meta.env.VITE_SITE_START_TIME;
+  const authorName = import.meta.env.VITE_SITE_AUTHOR_NAME;
 
   return (
     <footer id="footer">
@@ -34,9 +36,9 @@ const Footer = () => {
           &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
         </p>
         <p>
-          Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
+          Copyright&nbsp;&copy;&nbsp;{startTime}&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to={homeUrl} text={authorName} />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
