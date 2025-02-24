@@ -52,7 +52,7 @@
 
   | **变量名称**        | **值** |
   | ------------------- | ------ |
-  | DEPLOYMENT_PLATFORM | auto   |
+  | DEPLOYMENT_PLATFORM | vercel   |
   | API_KEY             |        |
 
 - 大功告成

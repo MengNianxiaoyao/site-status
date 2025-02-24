@@ -53,7 +53,7 @@ This project is deployed by default using [Cloudflare Pages](https://pages.cloud
 
   | **Variable Name**   | **Value** |
   | ------------------- | --------- |
-  | DEPLOYMENT_PLATFORM | auto      |
+  | DEPLOYMENT_PLATFORM | vercel      |
   | API_KEY             |           |
 
 - All set!
