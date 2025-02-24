@@ -31,7 +31,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "nuxt-lodash",
     "@nuxtjs/i18n",
-  ].concat(siteConfig.platform === "cloudflare" ? "" : "@nuxthub/core"),
+  ].concat(siteConfig.platform === "cloudflare" || siteConfig.platform === "vercel" ? "" : "@nuxthub/core"),
   // ssr
   ssr: false,
   // devtools
