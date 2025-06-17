@@ -10,7 +10,7 @@ const siteConfig = {
   siteTitle: process.env.SITE_TITLE || "梦念逍遥の站点监测",
   siteDescription: process.env.SITE_DESCRIPTION || "一个简约的站点监测",
   siteKeywords: process.env.SITE_KEYWORDS || "站点监测,监测,监控",
-  siteLogo: process.env.SITE_LOGO || "/favicon.ico",
+  siteLogo: process.env.SITE_LOGO || "https://cdn.jsdmirror.com/gh/MengNianxiaoyao/site-status@master/public/favicon.ico",
   siteIcp: process.env.SITE_ICP || "",
   countDays: Number(process.env.COUNT_DAYS || 60),
   showLink: process.env.SHOW_LINK === "true",

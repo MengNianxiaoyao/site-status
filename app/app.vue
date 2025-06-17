@@ -79,7 +79,7 @@ watch(
       title: isError ? `( ${error + unknown} ) ` + siteTitle : siteTitle,
     });
     // 更改图标
-    useFavicon(isError ? "/favicon-error.ico" : "/favicon.ico");
+    useFavicon(isError ? "https://cdn.jsdmirror.com/gh/MengNianxiaoyao/site-status@master/public/favicon-error.ico" : "https://cdn.jsdmirror.com/gh/MengNianxiaoyao/site-status@master/public/favicon.ico");
   },
 );
 
