@@ -96,7 +96,7 @@ const navMenu = computed<DropdownOption[]>(() => [
   {
     key: "logout",
     label: t("nav.logout"),
-    show: statusStore.loginStatus,
+    show: config.sitePassword ? statusStore.loginStatus : false,
     icon: renderIcon("icon:logout"),
     props: {
       onClick: () => {

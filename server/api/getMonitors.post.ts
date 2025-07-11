@@ -17,7 +17,7 @@ const getRanges = ():
     const config = useRuntimeConfig();
     const days = config.public.countDays;
     const gmt = config.public.gmt;
-    const today = dayjs(new Date().setHours((gmt != 0 ? -gmt : 0), 0, 0, 0));
+    const today = dayjs(new Date().setHours(-gmt, 0, 0, 0));
     // 生成日期范围数组
     for (let d = 0; d < days; d++) dates.push(today.subtract(d, "day"));
     // 生成自定义历史数据范围
