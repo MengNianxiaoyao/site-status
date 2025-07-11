@@ -41,7 +41,7 @@
       "down": "无法访问"
     },
     "type": {
-      "tip": "每间隔 {interval}，{type}来判断段站点是否运行正常",
+      "tip": "每间隔 {interval}，{type}来判断站点是否运行正常",
       "HTTP": "通过发送 HTTP 或 HTTPS 请求来监测目标服务的可用性",
       "KEYWORD": "通过获取页面内容，并检查返回的内容是否包含指定的关键词",
       "PING": "使用 ICMP 协议向目标服务器发送 Ping 请求",
