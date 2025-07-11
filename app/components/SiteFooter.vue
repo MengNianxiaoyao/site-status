@@ -50,7 +50,7 @@ const { public: configPublic } = useRuntimeConfig();
 const { siteIcp, version } = configPublic;
 
 const linkData = {
-  github: "https://github.com/imsyy/site-status",
+  github: "https://github.com/MengNianxiaoyao/site-status",
   home: "https://www.mnxy.eu.org",
   email: "mailto:email@mnxy.eu.org",
 };

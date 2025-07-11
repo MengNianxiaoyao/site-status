@@ -64,5 +64,12 @@
     "submit": "登录",
     "error": "密码错误，请重试",
     "success": "登录成功"
+  },
+  "logout": {
+    "content": "确定要退出登录吗？",
+    "ok": "确认",
+    "cancel": "取消",
+    "error": "退出登录失败",
+    "success": "退出登录成功"
   }
 }

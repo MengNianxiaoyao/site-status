@@ -101,20 +101,20 @@ const navMenu = computed<DropdownOption[]>(() => [
     props: {
       onClick: () => {
         window.$dialog.warning({
-          title: "退出登录",
-          content: "确定要退出登录吗?",
-          positiveText: "确定",
-          negativeText: "取消",
+          title: t("nav.logout"),
+          content: t("logout.content"),
+          positiveText: t("logout.ok"),
+          negativeText: t("logout.cancel"),
           transformOrigin: "center",
           onPositiveClick: async () => {
             const { code } = await $fetch("/api/logout", {
               method: "POST",
             });
             if (code !== 200) {
-              window.$message.error("退出登录失败");
+              window.$message.error(t("logout.error"));
               return;
             }
-            window.$message.success("退出登录成功");
+            window.$message.success(t("logout.success"));
             statusStore.loginStatus = false;
             localStorage.removeItem("authToken");
           },

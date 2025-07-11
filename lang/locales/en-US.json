@@ -64,5 +64,12 @@
     "submit": "Login",
     "error": "Password is incorrect",
     "success": "Login successful"
+  },
+  "logout": {
+    "content": "Are you sure you want to log out?",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "error": "Failed to log out",
+    "success": "Successfully logged out"
   }
 }
