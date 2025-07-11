@@ -1,5 +1,3 @@
-简体中文 | [English](./README.md)
-
 <div align="center">
 <h1>site-status</h1>
 <p>一个基于 UptimeRobot API 的在线状态面板</p>
