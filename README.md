@@ -2,10 +2,10 @@
 <h1>site-status</h1>
 <p>一个基于 UptimeRobot API 的在线状态面板</p>
 <br />
-<img src="https://img.shields.io/github/last-commit/imsyy/site-status" alt="last commit"/>
-<img src="https://img.shields.io/github/languages/code-size/imsyy/site-status" alt="code size"/>
-<img src="https://img.shields.io/github/stars/imsyy/site-status?style=full" alt="GitHub stars"/>
-<img src="https://img.shields.io/github/forks/imsyy/site-status?style=full&color=orange" alt="GitHub followers"/>
+<img src="https://img.shields.io/github/last-commit/MengNianxiaoyao/site-status" alt="last commit"/>
+<img src="https://img.shields.io/github/languages/code-size/MengNianxiaoyao/site-status" alt="code size"/>
+<img src="https://img.shields.io/github/stars/MengNianxiaoyao/site-status?style=full" alt="GitHub stars"/>
+<img src="https://img.shields.io/github/forks/MengNianxiaoyao/site-status?style=full&color=orange" alt="GitHub followers"/>
 <br />
 <br />
 <img src="https://s1.ax1x.com/2023/07/20/pCHnLLt.png" alt="demo"/>
@@ -37,7 +37,7 @@
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/imsyy/site-status)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MengNianxiaoyao/site-status)
 
 - 点击上方按钮以前往部署
 

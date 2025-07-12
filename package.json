@@ -1,11 +1,11 @@
 {
   "name": "site-status",
   "description": "a simple site-status pages, power by uptimerobot",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": {
-    "name": "imsyy",
-    "email": "one@imsyy.top",
-    "url": "https://github.com/imsyy/"
+    "name": "MengNianxiaoyao",
+    "email": "email@mnxy.eu.org",
+    "url": "https://github.com/MengNianxiaoyao/"
   },
   "license": "MIT",
   "type": "module",
@@ -55,5 +55,5 @@
     "vercel": "^39.3.0",
     "wrangler": "^3.102.0"
   },
-  "packageManager": "pnpm@9.12.2"
+  "packageManager": "pnpm@10.12.4"
 }
