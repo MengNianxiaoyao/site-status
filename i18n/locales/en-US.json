@@ -1,5 +1,6 @@
 {
   "uptimeRobot": "UptimeRobot",
+  "site_status_get_error": "Site data retrieval failed, please try again",
   "site": {
     "loading": "Site status loading",
     "unknown": "Site status unknown",

@@ -23,6 +23,7 @@ export const sleep = (ms: number) =>
  */
 export const getSiteData = async () => {
   const statusStore = useStatusStore();
+  const { t } = useI18n();
   try {
     statusStore.siteStatus = "loading";
     const result = await $fetch("/api/getMonitors", { method: "POST" });
@@ -43,6 +44,6 @@ export const getSiteData = async () => {
   } catch (error) {
     console.error("error to get site data", error);
     statusStore.siteStatus = "unknown";
-    window.$message.error("站点数据获取失败，请重试");
+    window.$message.error(t("site_status_get_error"));
   }
 };

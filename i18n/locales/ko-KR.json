@@ -1,5 +1,6 @@
 {
   "uptimeRobot": "UptimeRobot",
+  "site_status_get_error": "사이트 데이터 가져오기 실패, 다시 시도하십시오",
   "site": {
     "loading": "사이트 상태 로딩 중",
     "unknown": "사이트 상태 불명",

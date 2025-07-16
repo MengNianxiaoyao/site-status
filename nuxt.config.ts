@@ -125,6 +125,9 @@ export default defineNuxtConfig({
         },
       },
     },
+    build: {
+      chunkSizeWarningLimit: 1000,
+    },
   },
   // https://eslint.nuxt.com
   eslint: {
@@ -137,7 +140,10 @@ export default defineNuxtConfig({
   },
   // i18n
   i18n: {
-    vueI18n: "./lang/i18n.config.ts",
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
+    vueI18n: "./i18n.config.ts",
   },
   // icon
   icon: {

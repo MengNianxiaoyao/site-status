@@ -1,5 +1,6 @@
 {
   "uptimeRobot": "UptimeRobot",
+  "site_status_get_error": "サイトデータの取得に失敗しました。再試行してください",
   "site": {
     "loading": "サイトの状態を読み込み中",
     "unknown": "サイトの状態は不明",

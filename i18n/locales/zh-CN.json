@@ -1,5 +1,6 @@
 {
   "uptimeRobot": "UptimeRobot",
+  "site_status_get_error": "站点数据获取失败，请重试",
   "site": {
     "loading": "站点状态加载中",
     "unknown": "站点状态未知",
