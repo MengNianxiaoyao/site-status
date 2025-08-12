@@ -90,7 +90,7 @@ const navMenu = computed<DropdownOption[]>(() => [
     label: t("nav.about"),
     icon: renderIcon("icon:info"),
     props: {
-      onClick: () => window.open("https://blog.mnxy.eu.org/about/site"),
+      onClick: () => window.open("https://blog.mnxyio.top/about/site"),
     },
   },
   {

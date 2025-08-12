@@ -51,8 +51,8 @@ const { siteIcp, version } = configPublic;
 
 const linkData = {
   github: "https://github.com/MengNianxiaoyao/site-status",
-  home: "https://www.mnxy.eu.org",
-  email: "mailto:email@mnxy.eu.org",
+  home: "https://www.mnxyio.top",
+  email: "mailto:email@mnxyio.top",
 };
 </script>
 

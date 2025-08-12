@@ -4,7 +4,7 @@
   "version": "2.1.0",
   "author": {
     "name": "MengNianxiaoyao",
-    "email": "email@mnxy.eu.org",
+    "email": "email@mnxyio.top",
     "url": "https://github.com/MengNianxiaoyao/"
   },
   "license": "MIT",
@@ -55,5 +55,5 @@
     "vercel": "^44.4.1",
     "wrangler": "^4.24.3"
   },
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.14.0"
 }
