@@ -47,9 +47,6 @@
   | ------------------- | ------ |
   | DEPLOYMENT_PLATFORM | vercel   |
   | API_KEY             |        |
-  | GMT | 8 |
-
-  > GMT变量说明：例如东八区为GMT+8则填8，西八区为GMT-8则填-8
 
 - 大功告成
 
